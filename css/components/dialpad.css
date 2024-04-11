@@ -1,0 +1,99 @@
+.search .dialpad-btn {
+    width: 38px;
+    height: 38px;
+    padding: 9px 12px 10px 12px;
+    border-radius: 4px;
+    background: #E1E5EE;
+    margin-left: 8px;
+}
+.dialpad-wraper {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0, 0.3);
+    z-index: 100;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+}
+.dialpad {
+    position: relative;
+    z-index: 101;
+    width: 400px;
+    border-radius: 8px;
+    border: 1px solid #E1E5EE;
+    background: #FFF;
+    box-shadow: 0px 0px 12px 0px rgba(54, 74, 115, 0.12);
+    padding: 10px 40px 40px;
+}
+    .dialpad .close {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .dialpad .header {
+        width: 100%;
+        margin-top: 40px;
+        display: flex;
+        align-items: start;
+        justify-content: space-around;
+    }
+        .dialpad .header input {
+            width: 85%;
+            height: 48px;
+            border-radius: 4px;
+            border: 1px solid #C5CCDB;
+            padding: 14px 12px;
+        }
+    .dialpad .info-contact {
+        margin-top: 8px;
+    }
+    .dialpad .name-contact {
+        color: #1D2E53;
+        font-size: 20px;
+        display: none;
+    }
+    .dialpad .new-contact {
+        color: #40C277;
+        font-size: 12px;
+        display: none;
+    }
+        .dialpad .numbers .top {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            width: 100%;
+            margin-top: 20px;
+            }
+            .dialpad .numbers .top button {
+                width: 100px;
+                height: 48px;
+                color: #495C87;
+                font-size: 24px;
+            }
+        .dialpad .numbers .bottom-btn {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            width: 100%;
+        }
+            .dialpad .numbers .bottom-btn button {
+                width: 100px;
+                height: 48px;
+                color: #495C87;
+                font-size: 24px;
+            }
+            .call-btn {
+                text-align: center;
+            }
+                .call-btn .call {
+                    border-radius: 4px;
+                    background: #40C277;
+                    width: 100px;
+                    height: 38px;
+                }
+        

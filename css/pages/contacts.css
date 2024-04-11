@@ -1,0 +1,4 @@
+@import "../components/menu.css";
+@import "../components/searches.css";
+@import "./contacts/list.css";
+@import "./contacts/info.css";

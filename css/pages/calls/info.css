@@ -1,0 +1,324 @@
+section {
+    width: 100%;
+}
+    .profile {
+        height: 100%;
+        overflow: auto;
+    }
+    .header-info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px 10px 40px;
+        background: #F6FBFF;
+        box-shadow: 0px 2px 8px 0px rgba(54, 74, 115, 0.08);
+        height: 71px;
+    }
+        .header-info .left {
+            display: flex;
+            justify-content: start;
+            align-items: start;
+        }
+            .header-info .left .date-time {
+                border-radius: 4px;
+                border: 1px solid #C5CCDB;
+                background: #F6FBFF;
+                min-width: 57px;
+                text-align: center;
+                padding: 8px;
+            }
+                .header-info .left .date-time .date {
+                    color: #495C87;
+                    font-size: 14px;
+                }
+                .header-info .left .date-time .date .time {
+                    color: #495C87;
+                    font-size: 12px;
+                }
+            .header-info .left .humen {
+                margin-left: 10px;
+            }
+                .header-info .left .humen .number {
+                    color: #495C87;
+                    font-size: 24px;
+                }
+                .header-info .left .humen .name {
+                    color: #A6B4D0;
+                    font-size: 16px;
+                    margin-top: 5px;
+                }
+            .header-info .left .btns {
+                margin-left: 10px;
+            }
+            .header-info .left button {
+                border-radius: 4px;
+                background: linear-gradient(0deg, rgba(64, 194, 119, 0.15) 0%, rgba(64, 194, 119, 0.15) 100%), #FFF;
+                color: #40C277;
+                font-size: 14px;
+                width: 80px;
+                height: 20px;
+                padding: 2px 4px;
+                margin-top: 8px;
+            }
+                .header-info .left button:hover {
+                    background: linear-gradient(0deg, rgba(116, 75, 138, 0.15) 0%, rgba(116, 75, 138, 0.15) 100%), #FFF;
+                    color: #744B8A;
+                }
+        .header-info .last-btn {
+            width: 38px;
+            height: 38px;
+            background: #E1E5EE;
+            border-radius: 4px;
+            padding: 10px;
+            min-width: 38px;
+        }
+    .information {
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        padding: 20px 40px;
+        height: 100%;
+    }
+        .information .col-left {
+            width: 184px;
+        }
+        .information .col-left .left-list {
+            width: 100%;
+            height: auto;
+            border-radius: 4px;
+            background: #F1F3F8;
+            padding: 16px;
+        }
+            .information .left-list li {
+                margin-bottom: 10px;
+            }
+            .information .left-list li:last-child {
+                margin-bottom: 0;
+            }
+            .information .left-list .text h3 {
+                color: #A6B4D0;
+                font-size: 10px;
+            }
+            .information .left-list .item-botton {
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+            }
+            .information .left-list .item-botton span {
+                color: #364A73;
+                font-size: 14px;
+            }
+            .information .left-list .item-botton .btn-copy {
+                /* display: none; */
+            }
+        .information .col-right {
+            display: flex;
+            align-items: start;
+            justify-content: start;
+            flex-direction: column;
+            width: 100%;
+            margin-left: 20px;
+        }
+            .information .col-right .list {
+                display: flex;
+                align-items: start;
+                justify-content: start;
+                flex-direction: column;
+                color: #A6B4D0;
+                font-size: 14px;
+                margin-bottom: 20px;
+            }
+            .information .col-right .list:last-child {
+                margin-bottom: 0;
+            }
+            .information .col-right .list span {
+                margin-bottom: 10px;
+            }
+        .information .btn-botton {
+            border-radius: 4px;
+            border: 1px solid #40C277;
+            color: #40C277;
+            text-align: center;
+            font-size: 14px;
+            margin-top: 20px;
+            
+        }
+        .information .btn-botton:hover {
+            background: #40C277;
+            color: #FFF;
+        }
+        .information .col-left .btn-botton {
+            height: 32px;
+            width: 184px;
+            padding: 8px;
+            text-align: center;
+        }
+        .information .col-right .select {
+            border-radius: 4px;
+            border: 1px solid #C5CCDB;
+            background: #FFF;
+            width: 230px;
+            height: 38px;
+            color: #7688B1;
+            font-size: 16px;
+            padding: 8px;
+            background: url("/img/arow-down-icon.svg") 95% 55% no-repeat;
+            background-size: 16px 16px;
+            appearance: none;
+        }
+        .information .col-right .textarea {
+            border-radius: 4px;
+            border: 1px solid #C5CCDB;
+            background: #FFF;
+        }
+        .information .col-right .tags-text {
+            border-radius: 4px;
+            border: 1px solid #C5CCDB;
+            background: #FFF;
+            width: 445px;
+            /* height: 76px; */
+            padding: 12px;
+        }
+            .information .col-right .tags-text input {
+                border: none;
+                margin-top: 8px;
+            }
+            .information .col-right .tags-text .tags {
+                display: flex;
+                justify-content: start;
+                align-items: center;
+                
+            }
+                .information .col-right .tags-text .tags .active-tag {
+                    border-radius: 13px;
+                    border: 1px solid rgba(52, 131, 210, 0.20);
+                    background: #FFF;
+                    color: #3483D2;
+                    font-size: 14px;
+                    padding: 4px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-right: 8px;
+                }
+                    .information .col-right .tags-text .tags .active-tag button {
+                        width: 16px;
+                        height: 16px;
+                        min-width: 16px;
+                    }
+        .information .col-right .btn-botton {
+            height: 32px;
+            width:100px;
+            padding: 7px;
+        }
+.content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+    .content .calling {
+        display: none;
+        height: 100%;
+        background: #263A64;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transition: 0.4s;
+    }   
+        .content .calling .wrapper-calling  {
+            text-align: center;
+            color: #FFF;
+        }  
+            .content .calling .wrapper-calling .icon-phone {
+                margin-top: 100px;
+            }
+            .content .calling .wrapper-calling .number {
+                font-size: 32px;
+                margin-top: 20px;
+            }
+            .content .calling .wrapper-calling .name {
+                font-size: 16px;
+                margin-top: 5px;
+            }
+            .content .calling .wrapper-calling .call-time {
+                font-size: 22px;
+                margin-top: 15px;
+            }
+            .content .calling .wrapper-calling .icon-box {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                width: 30%;
+                margin: 80px auto 0;
+            }
+                .content .calling .wrapper-calling .icon-box .btn-style {
+                    width: 48px;
+                    height: 48px;
+                    border-radius: 4px;
+                    background: #364A73;
+                    padding: 10px;
+                }
+
+.content .calling.calling-small {
+    width: 20%;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid  #516793;
+    background: #263A64;
+    height: 32px;
+    padding: 4px 5px;
+    top: 3px;
+    position: fixed;
+    z-index: 20;
+    transition: 0.4s;
+}   
+    .content .calling.calling-small .wrapper-calling  {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0;
+    }
+    .content .calling.calling-small .wrapper-calling .icon-box {
+        margin: 0;
+    }
+        .content .calling.calling-small .wrapper-calling .icon-phone {
+            display: none;
+        }
+        .content .calling.calling-small .wrapper-calling .number {
+            margin-top: 0;
+            margin-left: 10px;
+            font-size: 16px;
+        }
+        .content .calling.calling-small .wrapper-calling .call-time {
+            margin-left: 15px;
+            font-size: 16px;
+            margin-top: 0;
+        }
+        .content .calling.calling-small .wrapper-calling .name {
+            display: none;
+        }
+        .content .calling.calling-small .wrapper-calling .icon-box {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 32%;
+        }
+            .content .calling.calling-small .wrapper-calling .icon-box .btn-next {
+                display: none;
+            }
+            .content .calling.calling-small .wrapper-calling .icon-box .btn-notes {
+                display: none;
+            }
+            .content .calling.calling-small .wrapper-calling .icon-box .btn-style {
+                width: 24px;
+                height: 24px;
+                border-radius: 4px;
+                background: #364A73;
+                padding: 5px;
+            }
+            .content .calling.calling-small .wrapper-calling .icon-box .btn-style .img-size {
+                width: 16px;
+                height: 11px;
+            }

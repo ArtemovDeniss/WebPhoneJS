@@ -1,0 +1,66 @@
+.favorite-numbers {
+    overflow: auto;
+    padding: 10px 0;
+    width: 100%;
+    border-top: 1px solid #E1E5EE;
+    border-bottom: 1px solid #E1E5EE;
+}
+    .favorite-numbers .top {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        width: 200px;
+        padding: 10px ;
+    }
+       .favorite-numbers .top span {
+        color: #7688B1;
+        font-size: 16px;
+       }
+       .favorite-numbers .top button {
+        width: 20%;
+        margin-top: 5px;
+       }
+    .favorite-numbers .numbers-list {
+        width: 100%;
+    }
+        .favorite-numbers .numbers-list li {
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 5px 10px;
+        }
+            .favorite-numbers .numbers-list li:hover {
+                background: #F1F3F8;
+            }
+            .favorite-numbers .numbers-list li .number {
+                color: #495C87;
+                font-size: 16px;
+            }
+            .favorite-numbers .numbers-list li .name {
+                color: #A6B4D0;
+                font-size: 14px;
+                margin-top: 3px;
+            }
+.alphabet-list {
+    overflow: auto;
+    padding: 10px 0 0 5px;
+    width: 100%;
+}
+    .alphabet-list .contact {
+        cursor: pointer;
+        width: 100%;
+        padding: 10px;
+    }
+    .alphabet-list .contact:hover {
+        background: #F1F3F8;
+    }
+        .alphabet-list .contact .number {
+            color: #495C87;
+            font-size: 16px;
+        }
+        .alphabet-list .contact .name {
+            color: #A6B4D0;
+            font-size: 14px;
+            margin-top: 3px;
+        }

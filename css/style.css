@@ -1,0 +1,64 @@
+@import "./reset.css";
+
+body {
+    font-family: "Source Sans 3";  
+    font-weight: 400;
+    height: 100%;
+}
+html {
+    height: 100%;
+}
+button {
+    border: none;
+    cursor: pointer;
+    background: none;
+}
+input:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+header {
+    background: #1D2E53;
+    padding: 0 20px; 
+    height: 40px;
+    display: flex;
+}
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+    .box .call-box {
+        display: none;
+        width: 12%;
+        /* display: flex; */
+        align-items: center;
+        justify-content: space-between;
+        color: #fff;
+        font-size: 16px;
+    }
+        .box .call-box .call-img { 
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+            .box .call-box .call-img .yes {
+                display: block;
+                margin: 0 auto;
+                width: 24px;
+                height: 24px;
+                padding: 5px;
+                border-radius: 4px;
+                background: #40C277;
+                margin-right: 5px;
+            }
+            .box .call-box .call-img .no {
+                display: block;
+                
+                width: 24px;
+                height: 24px;
+                padding: 5px;
+                border-radius: 4px;
+                background: #FF622A;
+            }

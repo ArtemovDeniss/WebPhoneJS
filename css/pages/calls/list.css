@@ -1,0 +1,100 @@
+.list-box {
+    overflow: auto;
+    height: 90%;
+    width: 100%;
+    border-top: 1px solid #E1E5EE;
+    padding: 10px 0;
+}
+    .list-box .header-list {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
+        .list-box .header-list .normalBtn {
+            border-radius: 4px;
+            border: 1px solid #C5CCDB;
+            background: #FFF;
+            padding: 4px 20px;
+            color: #364A73;
+            font-size: 14px;
+        }
+            .list-box .header-list .activeBtn {
+                color: #FFF;
+                background: #364A73;
+                box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+                
+            }
+    .list-box .numbers-list {
+        height: 90%;
+        width: 100%;
+        margin-top: 12px;
+    }
+        .list-box .numbers-list li {
+            cursor: pointer;
+            display: flex;
+            align-items: start;
+            justify-content: space-between;
+            width: 100%;
+            padding: 5px 10px;
+            position: relative;
+        }
+            .list-box .numbers-list li:hover {
+                background: #F1F3F8;
+            }
+            .list-box .numbers-list li:hover .right .call-btn {
+                display: block;
+            }
+            
+            .list-box .numbers-list .left {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                width: 42%;
+            }
+                .list-box .numbers-list .left span {
+                    color: #495C87;
+                    font-size: 16px;
+                }
+                
+                .list-box .numbers-list .left .contact {
+                    display: flex;
+                    align-items: start;
+                    justify-content: start;
+                    flex-direction: column;
+                    margin-left: 5px;
+                }
+                .list-box .numbers-list .left .name {
+                    color: #A6B4D0;
+                    font-size: 14px;
+                    margin-top: 3px;
+                }
+            .list-box .numbers-list .right .date {
+                position: relative;
+                color: #A6B4D0;
+                font-size: 16px;
+                z-index: -10;
+            }
+                .list-box .numbers-list .right .call-btn {
+                    width: 34px;
+                    height: 34px;
+                    min-width: 38px;
+                    background: #E1E5EE;
+                    border-radius: 4px;
+                    padding: 10px;
+                    z-index: 100;
+                    position: absolute;
+                    right: 15px;
+                    top: 4px;
+                    display: none;
+                }
+                
+                .list-box .numbers-list .right .call-btn svg {
+                    pointer-events: none;
+                }
+
+                .callMute {
+                    background: gray!important;
+                    cursor: default!important;
+                }
+                
